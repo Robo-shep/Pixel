@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Centauri;
+    src: url(FontsFree-Net-Centauri.ttf);
+}
+
+h2{
+    font-family: Centauri;
+    color: black;
+}
+

@@ -1,0 +1,233 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(file:///C:/Users/dell/Desktop/Works/website/accessories/geometric.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  width: 85%;
+  margin-left: 30px;
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+  align-items: center;
+}
+
+.navbar li {
+  display: flex;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: larger;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.navbar li ::after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: rgb(11, 10, 10);
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: 0.5s;
+}
+.navbar li :hover::after {
+  width: 100%;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* Mobile Device */
+
+@media only screen and (max-width: 850px) {
+  .nav {
+    padding: 0%;
+  }
+
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    margin-top: -900px;
+    transition: all 0.5s ease;
+  }
+  
+  .mobile-menu {
+    margin-top: 0px;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+
+  .navbar li a {
+    margin: 20px auto;
+    color: #000;
+  }
+
+  .navbar li ::after {
+    background: #000;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+
+/* card content */
+
+.container {
+  position:relative ;
+  display: flex;
+  justify-content: center;
+  padding: 80px 50px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  gap: 100px 50px;
+  
+}
+
+.container .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position:relative;
+  width: 350px;
+  height: 300px;
+  background: #fff;
+  border-radius: 23px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0,0.15);
+  transition: 500ms;
+}
+
+.container .card:hover {
+  /* transform: scale(1, 1.5); */
+  height: 360px;
+}
+
+.container .card .imgbox {
+  top: 20px;
+  position: absolute;
+  width: 300px;
+  height: 230px;
+  background: #333;
+  border-radius: 15px;
+  transition: 00.5s;
+  overflow: hidden;
+}
+
+.container .card:hover .imgbox {
+  top: -100px;
+  scale: 0.70;
+  box-shadow: 0 15px 45px rgba(0, 0, 0,0.2);
+}
+
+.container .card .imgbox img {
+  position:absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container .card .content {
+  position: absolute;
+  top: 252px;
+  width: 100%;
+  padding: 0px 30px;
+  height: 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 00.5s;
+}
+
+.container .card:hover .content {
+  top: 130px;
+  height: 250px;
+}
+
+.container .card .content h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--clr);
+}
+
+.container .card .content p {
+  color: #333;
+}
+
+.container .card .content a {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  background: var(--clr);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: 8px;
+}
+
+
+/* Call to action */
+
+.getstarted {
+  background: #ecede8;
+  margin-top: 30px;
+  padding: 10rem;
+}
+
+.ctn-container {
+  background: whitesmoke ;
+  display: flex;
+  width: 80%;
+  padding: 2rem;
+  box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.363);
+  margin: 10px auto;
+  justify-content: space-around;
+  border-radius: 10px;
+}
