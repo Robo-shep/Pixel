@@ -92,7 +92,7 @@ Open a Pull Request
 </td>
 
 <td align="center">
-<a href="https://github.com/">Rudra00codes
+<a href="https://github.com/Rudra00codes">
 <img src="https://avatars.githubusercontentom/u/22236218?v=4" width="100px;" alt="Rudra Profile Picture"/><br>
 <sub>
 <b>Rudra </b>
@@ -127,19 +127,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- Add badges with link to Shields IO -->
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
-: Shows the current release version.
+
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
-: Shows the last commit time. Good indication of the project activity.
+
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
-: Dynamic badge that shows the number of open issues in the project.
+
 
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
-: Similar dynamic badge, but for pull requests.
+
 
 ![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-: Shows the open-source license the project uses.
+
 
 
 
