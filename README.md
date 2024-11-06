@@ -84,7 +84,7 @@ Open a Pull Request
 
 <td align="center">
 <a href="https://github.com/Robo-shep">
-<img src="https://avatars.githubusercontenom/u/61896274?v=4" width="100px;" alt="Ananr Profile Picture"/><br>
+<img src="https://avatars.githubusercontent.com/u/179017319?v=4" width="100px;" alt="Anant Profile Picture"/><br>
 <sub>
 <b>Anant </b>
 </sub>
@@ -93,7 +93,7 @@ Open a Pull Request
 
 <td align="center">
 <a href="https://github.com/Rudra00codes">
-<img src="https://avatars.githubusercontentom/u/22236218?v=4" width="100px;" alt="Rudra Profile Picture"/><br>
+<img src="https://avatars.githubusercontent.com/u/138129178?v=4" width="100px;" alt="Rudra Profile Picture"/><br>
 <sub>
 <b>Rudra </b>
 </sub>
